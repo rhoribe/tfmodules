@@ -70,6 +70,7 @@ variable "kms_master_key_id" {
 variable "topic_name" {
   description = "Nome do tópico usado como source na policy"
   type        = list(string)
+  default     = []
 }
 
 #############################################
